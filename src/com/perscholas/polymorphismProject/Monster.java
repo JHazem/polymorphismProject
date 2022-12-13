@@ -21,7 +21,7 @@ public class Monster {
 	}
 	
 	public String attack() {
-		return "attack something";
+		return "!^_&^$@+%$* I don't know how to attack!";
 		}
 	 
 }
@@ -39,9 +39,7 @@ public class Monster {
 			}
 
 	}
-	
-	
-	
+	 
 	class WaterMonster extends Monster{
 
 		public WaterMonster(String name) {
@@ -54,8 +52,7 @@ public class Monster {
 			}
 		
 	}
-	
-	
+	 
 	class StoneMonster extends Monster{
 
 		public StoneMonster(String name) {
@@ -66,10 +63,9 @@ public class Monster {
 		public String attack() {
 			return "attack stone";
 			}
-		
-		
+		 
 	}
 	
-	
+
 	
 	
